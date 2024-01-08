@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | ZP</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">ZP</p>
+
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn"><a href="./assets/cv/CV.pdf" download>Download CV</a><i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Zeel Patel</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Aspiring full-stack developer enthusiastic about learning and applying both frontend and
+                            backend technologies. Eager to contribute to the creation of user-friendly websites while
+                            gaining hands-on experience and expanding my skill set.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Hire Me</button>
+                        <button class="btn"><a href="./assets/cv/CV.pdf" download>Download CV</a><i
+                                class="uil uil-file-alt"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon">
+                            <a href="https://github.com/7zedd7" target="_blank">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="icon">
+                            <a href="https://twitter.com/patelzeel725" target="_blank">
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/zeelpatel0" target="_blank">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="assets/images/avatar.png" alt="avatar">
+                    </div>
+                </div>
+
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>I have extensive experience in web development, including expertise in HTML, CSS,
+                                JavaScript, and other cutting-edge frameworks and libraries. This allows me to create
+                                interactive and engaging web pages.
+                            </p>
+                            <div class="about-btn">
+                                
+                                <button class="btn"><a href="./assets/cv/CV.pdf" download class="btn--download">Download CV <i
+                                            class="uil uil-import"></i></a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Technologies</h3>
+                            </div>
+                            <div class="skills-graph">
+                                <div class="skill-bar" style="--skill-level: 100%;">
+                                    <span>HTML</span>
+                                </div>
+                                <div class="skill-bar" style="--skill-level: 85%;">
+                                    <span>CSS</span>
+                                </div>
+                                <div class="skill-bar" style="--skill-level: 100%;">
+                                    <span>Bootstrap</span>
+                                </div>
+                                <div class="skill-bar" style="--skill-level: 70%;">
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="skill-bar" style="--skill-level: 65%;">
+                                    <span>jQuery</span>
+                                </div>
+                                <div class="skill-bar" style="--skill-level: 55%;">
+                                    <span>React</span>
+                                </div>
+                                <div class="skill-bar" style="--skill-level: 50%;">
+                                    <span>Typescript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section id="projects">
+                <p class="section__text__p1">Browse My Recent</p>
+                <h1 class="title">Projects</h1>
+                <div class="about-containers">
+                    <div class="card-container" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                        <a href="https://7patel.github.io/sunDown/" target="_blank" class="hero-image-container">
+                            <video class="hero-video" poster="/assets/images/project_1.png" loop muted>
+                                <source src="./assets/videos/project-demo-vid-1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </a>
+                        <main class="main-content">
+                            <h1>SunDown</h1>
+                            <p></p>
+                            <div class="flex-row">
+                                <ul class="flex-ul">
+                                    <li class="tech-flex">HTML</li>
+                                    <li class="tech-flex">CSS</li>
+                                    <li class="tech-flex">JavaScript</li>
+                                    <li class="tech-flex">Three.js</li>
+                                </ul>
+                            </div>
+                            
+                        </main>
+                    </div>
+
+                    <div class="card-container" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                        <a href="https://7patel.github.io/Blog-site/" target="_blank class="hero-image-container">
+                            <video class="hero-video" poster="./assets/images/project_2.png" loop muted>
+                                <source src="./assets/videos/project-demo-vid-2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </a>
+                        <main class="main-content">
+                            <h1>Blog Website</h1>
+                            <p></p>
+                            <div class="flex-row">
+                                <ul class="flex-ul">
+                                    <li class="tech-flex">HTML</li>
+                                    <li class="tech-flex">CSS</li>
+                                    <li class="tech-flex">JavaScript</li>
+                                    <li class="tech-flex">CDN</li>
+                                </ul>
+                            </div>
+                        </main>
+
+                    </div>
+
+                    <div class="card-container" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                        <a href="https://7patel.github.io/seacat-draggable/" target="_blank class="hero-image-container">
+                            <video class="hero-video" poster="./assets/images/project_3.png" loop muted>
+                                <source src="./assets/videos/project-demo-vid-3.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </a>
+                        <main class="main-content">
+                            <h1>seacat-draggable</h1>
+                            <p></p>
+                            <div class="flex-row">
+                                <ul class="flex-ul">
+                                    <li class="tech-flex">HTML</li>
+                                    <li class="tech-flex">CSS</li>
+                                    <li class="tech-flex">JavaScript</li>
+                                    <li class="tech-flex">GSAP</li>
+                                </ul>
+                            </div>
+                        </main>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: patelzeel725@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> Tel: +91 22 1234 5678</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Name">
+                                <input type="text" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Zeel Patel /</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon">
+                    <a href="https://github.com/7zedd7" target="_blank">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+
+                <div class="icon">
+                    <a href="https://twitter.com/patelzeel725" target="_blank">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/zeelpatel0" target="_blank">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Zeel Patel</a> - All rights reserved
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
